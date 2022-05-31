@@ -109,8 +109,8 @@ def actualizar_tarea():
         tarea = read_one(identificador)
 
         # Mostrar la información actual
-        imprimir_titulo()
-        imprimir_tarea(identificador, tarea)
+        imprimir_titulo("Actualizar Tarea")
+        imprimir_tarea(tarea)
         
         #Capturar los campos de interés
         nuevaDescripcion = input("Nueva descripción: ")
