@@ -51,7 +51,6 @@ def opcion_menu_principal():
     print("4. Actualizar tarea")
     print("5. Eliminar tarea")
     print("0. Salir")
-
     valor = None
     while valor == None:
         valor = leer_entero("Ingrese una opción: ")

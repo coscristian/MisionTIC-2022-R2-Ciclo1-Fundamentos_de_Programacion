@@ -14,6 +14,7 @@ def create(tarea: dict) -> dict:
         dict: Tarea guardado en lista con el consecutivo
     """
     tarea["id"] = generar_consecutivo()
+    print(tarea)
     __tareas.append(tarea)
     return tarea
 
